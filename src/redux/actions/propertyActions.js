@@ -56,7 +56,7 @@ export const fetchProperties = (pageNumber = 1, pageSize = 10, filters = {}) => 
       type: 'FETCH_PROPERTIES_SUCCESS',
       payload: {
         properties: data.data,
-        totalProperties: data.totalProducts,
+        totalProperties: data.totalProperties,
         pageSize: data.pageSize,
         currentPage: data.currentPage,
       },
