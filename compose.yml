@@ -1,0 +1,23 @@
+version: '3.7'
+
+networks:
+  property-network:
+    external: true
+
+volumes:
+  shared-assets: # Define the same shared volume for assets
+    external: true
+
+services:
+  property-app:
+    container_name: property-app
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: unless-stopped
+    ports:
+      - "3000:80"  # Expose port 3000
+    networks:
+    - property-network
+    volumes:
+    - shared-assets:/usr/share/nginx/html/assets # Mount the shared volume to your frontend app
