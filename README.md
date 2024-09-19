@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This Application helps to create order information for businesses. It makes it easier to create an order with products.
+This Application helps to create order information for businesses. It makes it easier to work with properties.
 
 ## Basic Requirements
 
@@ -38,9 +38,8 @@ You can start the application using npm start (npm install --legacy-peer-deps an
 docker-compose -f compose.yml up --build -d property-app
 ```
 
-![image](https://github.com/user-attachments/assets/c5d9b11f-ef47-4f62-817a-a93f38302f49)
+![image](https://github.com/user-attachments/assets/6760616b-62fe-465f-80c9-354d83fc4ea5)
 
-![image](https://github.com/elmauro/product-service/assets/9219845/b737f711-ecd1-4a4b-9d03-4590d132775e)
 
 ## Using the Application
 
@@ -52,4 +51,43 @@ The Application can be accessed locally at:
 http://localhost:3000/
 ```
 
-![image](https://github.com/user-attachments/assets/82b67644-a9e5-4448-a927-ae7044c62993)
+![image](https://github.com/user-attachments/assets/6e825194-ac49-41e1-bf59-5e82a2f67d80)
+
+
+## Authentication
+
+username: test
+
+password: password
+
+
+![image](https://github.com/user-attachments/assets/bbf04516-5e4c-4211-b891-c3cb4e56e3ac)
+
+
+## List Properties with filters
+
+![image](https://github.com/user-attachments/assets/b50698ea-eb06-4a3c-b994-b1d3319b9f51)
+
+
+## Create Property Building
+
+![image](https://github.com/user-attachments/assets/9ccf55bf-80da-4cf6-b04e-b23e5dc54f7c)
+
+
+## Add Image from property
+
+![image](https://github.com/user-attachments/assets/d0f59ccb-6c07-46b6-9975-b046d59d5473)
+
+
+## Change Price
+
+![image](https://github.com/user-attachments/assets/c3d797ae-8c18-437d-972f-06ff4a6af945)
+
+
+## Update Property
+
+![image](https://github.com/user-attachments/assets/7314af98-1c93-4818-b94f-c8f896a02ac8)
+
+
+
+
